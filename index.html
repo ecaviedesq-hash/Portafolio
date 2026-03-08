@@ -1,23 +1,73 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta name="description" content="Portafolio">
-    <meta charset="UTF-8">
-    <title>Portafolio</title>
-   <link rel="stylesheet" href="estilos.css"> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio de desarrollo">
+  <title>Portafolio</title>
+  <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
+  <header class="site-header">
+    <h1 class="site-title">PORTAFOLIO</h1>
+    <nav class="site-nav" aria-label="Navegacion principal">
+      <a class="nav-link active" href="index.html">INICIO</a>
+      <a class="nav-link" href="proyectos.html">PROYECTOS</a>
+      <a class="nav-link" href="contacto.html">CONTACTO</a>
+    </nav>
+  </header>
 
-    <header>
-        <h1>PORTAFOLIO</h1>
-
-        <nav>
-             <a href="index.html">Home</a>
-             <a href="proyectos.html">proyectos</a>
-             <a href="contacto.html">contactos</a>
+  <main class="home-main">
+    <section class="home-hero" aria-label="Presentacion principal">
+      <article class="hero-copy">
+        <h2>Desarrollador y Diseñador visual.</h2>
+        <p>
+          Me apasiona transformar ideas en interfaces funcionales y estéticas. Pienso
+          que el diseño y el código van siempre de la mano. Además, disfruto de la
+          edición de videos.
+        </p>
+        <nav class="hero-actions" aria-label="Acciones de inicio">
+          <a class="action-btn" href="proyectos.html">Ver proyectos</a>
+          <a class="action-btn secondary" href="contacto.html">Contactarme</a>
         </nav>
-    </header>
-    
 
+        <section class="tools-box" aria-label="Tecnologias y herramientas">
+          <h3>HERRAMIENTAS UTILIZADAS</h3>
+          <ul class="tools-logos">
+            <li>
+              <img src="imagenescarpeta/logophotoshop.png" alt="Logo de Photoshop">
+              <span class="tool-name">Photoshop</span>
+            </li>
+            <li>
+              <img src="imagenescarpeta/logoillustrator.png" alt="Logo de Illustrator">
+              <span class="tool-name">Illustrator</span>
+            </li>
+            <li>
+              <img src="imagenescarpeta/logocapcut.png" alt="Logo de CapCut">
+              <span class="tool-name">CapCut</span>
+            </li>
+            <li>
+              <img src="imagenescarpeta/logounity.png" alt="Logo de Unity">
+              <span class="tool-name">Unity</span>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <article class="hero-card">
+        <figure class="image-frame">
+          <img class="hero-image" src="imagenescarpeta/fotoyo.png" alt="Foto de Esteban">
+        </figure>
+        <section class="hero-card-body">
+          <h3>Hola, soy Esteban</h3>
+          <p>
+            Tengo 21 años y estudio Diseño en Medios Interactivos en la Universidad
+            San Francisco de Quito. Me gusta la naturaleza, aprender cosas nuevas y
+            compartir tiempo con las personas cercanas a mi.
+          </p>
+        </section>
+      </article>
+    </section>
+  </main>
 </body>
 </html>

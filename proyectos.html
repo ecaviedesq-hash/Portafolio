@@ -1,35 +1,90 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Portafolio</title>
-    <link rel="stylesheet" href="estilos.css"> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Proyectos de portafolio">
+  <title>Proyectos | Portafolio</title>
+  <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
+  <header class="site-header">
+    <h1 class="site-title">PORTAFOLIO</h1>
+    <nav class="site-nav" aria-label="Navegacion principal">
+      <a class="nav-link" href="index.html">INICIO</a>
+      <a class="nav-link active" href="proyectos.html">PROYECTOS</a>
+      <a class="nav-link" href="contacto.html">CONTACTO</a>
+    </nav>
+  </header>
 
-    <!-- HEADER -->
-    <header>
-        <h1>PORTAFOLIO</h1>
-        <nav>
-            <button>HOME</button>
-            <button>PROYECTOS</button>
-            <button>CONTACTO</button>
-        </nav>
-    </header>
-
-    <!-- PROYECTOS -->
-    <section class="proyectos">
-        <h2>PROYECTOS</h2>
-
-        <div class="contenedor-proyectos">
-            <div class="proyecto"></div>
-            <div class="proyecto"></div>
-        </div>
+  <main class="projects-main">
+    <section class="projects-intro">
+      <h2>Proyectos Photoshop</h2>
+      <p>Trabajos durante el curso de Herramientas Digitales.</p>
     </section>
 
-    <!-- FOOTER -->
-    <footer></footer>
-    <footer class="footer">
+    <section class="projects-grid" aria-label="Lista de proyectos">
+      <article class="project-card">
+        <figure class="project-media">
+          <img src="imagenescarpeta/proyecto1.gif" alt="Montaje de Multiplicacion">
+        </figure>
+        <footer class="project-card-footer">
+          <h3>Montaje de Multiplicación</h3>
+          <a class="project-link" href="imagenescarpeta/proyecto1.gif" target="_blank" rel="noopener noreferrer">Ver imagen completa</a>
+        </footer>
+      </article>
 
+      <article class="project-card">
+        <figure class="project-media">
+          <img src="imagenescarpeta/proyecto2.png" alt="Montaje Visual">
+        </figure>
+        <footer class="project-card-footer">
+          <h3>Montaje Visual</h3>
+          <a class="project-link" href="imagenescarpeta/proyecto2.png" target="_blank" rel="noopener noreferrer">Ver imagen completa</a>
+        </footer>
+      </article>
+
+      <article class="project-card">
+        <figure class="project-media">
+          <img src="imagenescarpeta/proyecto3.jpg" alt="Montaje de Composicion Creativa">
+        </figure>
+        <footer class="project-card-footer">
+          <h3>Montaje de Composición Creativa</h3>
+          <a class="project-link" href="imagenescarpeta/proyecto3.jpg" target="_blank" rel="noopener noreferrer">Ver imagen completa</a>
+        </footer>
+      </article>
+
+      <article class="project-card">
+        <figure class="project-media">
+          <img src="imagenescarpeta/proyecto4.jpg" alt="Mascaras y Contrastes">
+        </figure>
+        <footer class="project-card-footer">
+          <h3>Máscaras y Contrastes</h3>
+          <a class="project-link" href="imagenescarpeta/proyecto4.jpg" target="_blank" rel="noopener noreferrer">Ver imagen completa</a>
+        </footer>
+      </article>
+    </section>
+
+    <section class="essays-section" aria-label="Ensayos fotograficos">
+      <h2>Ensayos fotográficos</h2>
+      <p>Trabajos durante el curso de Fotografía.</p>
+
+      <section class="essays-grid">
+        <article class="essay-card">
+          <h3>Ensayo Documental</h3>
+          <object data="imagenescarpeta/ensayodocumental.pdf" type="application/pdf" class="essay-pdf">
+          </object>
+          <a class="essay-link" href="imagenescarpeta/ensayodocumental.pdf" target="_blank" rel="noopener noreferrer">Abrir PDF</a>
+        </article>
+
+        <article class="essay-card">
+          <h3>Ensayo Paisaje</h3>
+          <object data="imagenescarpeta/ensayopaisaje.pdf" type="application/pdf" class="essay-pdf">
+          </object>
+          <a class="essay-link" href="imagenescarpeta/ensayopaisaje.pdf" target="_blank" rel="noopener noreferrer">Abrir PDF</a>
+        </article>
+      </section>
+    </section>
+  </main>
 </body>
 </html>
